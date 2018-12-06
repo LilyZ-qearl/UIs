@@ -20,6 +20,14 @@ import croup from './directives/croup';
 import blur from './directives/blur';
 import focus from './directives/focus';
 
+function insertStylesheetFirst(href) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = href;
+    document.head.insertBefore(link, document.querySelector('style'));
+}
+insertStylesheetFirst('//at.alicdn.com/t/font_938680_6rwyd6zhi4k.css');
+
 ${componentList
         .map(component => {
             return (
