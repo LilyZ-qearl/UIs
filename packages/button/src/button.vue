@@ -18,6 +18,7 @@
         display: inline-block;
         cursor: pointer;
         text-align: center;
+        line-height: $--line-height-base;
     }
     .cat-button--normal {
         font-size: $--button-font-size-normal;
