@@ -13,7 +13,7 @@ function insertStylesheetFirst(href) {
     link.href = href;
     document.head.insertBefore(link, document.querySelector('style'));
 }
-insertStylesheetFirst('//at.alicdn.com/t/font_938680_6rwyd6zhi4k.css');
+insertStylesheetFirst('//at.alicdn.com/t/font_938680_ngoiffdfjfg.css');
 
 import AnswerRadio from '../packages/answerRadio';
 import Aside from '../packages/aside';
