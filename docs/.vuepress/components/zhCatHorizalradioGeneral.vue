@@ -3,10 +3,10 @@
     <code-container>
         <cc-radio-group v-model="hori" title="形状">
             <cc-horizontal-radio  :value="77">
-                <i class="iconfont icon-triangle"></i>
+                <i class="iconfont_calico icon-triangle"></i>
             </cc-horizontal-radio>
             <cc-horizontal-radio  :value="1">
-                <i class="iconfont icon-rectangle"></i>
+                <i class="iconfont_calico icon-rectangle"></i>
             </cc-horizontal-radio>
         </cc-radio-group>
     </code-container>

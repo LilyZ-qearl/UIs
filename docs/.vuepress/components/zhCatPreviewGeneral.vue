@@ -8,7 +8,7 @@
             @delete-item="deletePage('dd')"
             operate                
             :active="index === nowIndex">
-            <i class="iconfont icon-deletePage"></i>
+            <i class="iconfont_calico icon-deletePage"></i>
         </cc-preview>          
     </code-container>
 </template>

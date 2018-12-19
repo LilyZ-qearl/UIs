@@ -66,7 +66,7 @@
                 :key="index" 
                 :value="item.val" 
                 :label="item.name">
-                <i slot="right" class="iconfont icon-delete"></i>
+                <i slot="right" class="iconfont_calico icon-delete"></i>
             </cc-option>
         </cc-select>
         <cc-button @click="courseNew = null">ah</cc-button>
@@ -86,7 +86,7 @@
                 :label="item.name">
                 <div slot="right">
                     <cc-tooltip content="删除当前项目" direction="right">
-                        <i class="iconfont icon-delete kb-h-i" >
+                        <i class="iconfont_calico icon-delete kb-h-i" >
                         </i>
                     </cc-tooltip>
                 </div>
@@ -117,26 +117,26 @@
     </cc-button>
     <cc-checkbox-group v-model="horiArr" title="多选">
         <cc-horizontal-checkbox  value="77">
-            <i class="iconfont icon-triangle"></i>
+            <i class="iconfont_calico icon-triangle"></i>
         </cc-horizontal-checkbox>
         <cc-horizontal-checkbox  :value="1">
-            <i class="iconfont icon-rectangle"></i>
+            <i class="iconfont_calico icon-rectangle"></i>
         </cc-horizontal-checkbox>
     </cc-checkbox-group>
     <cc-radio-group v-model="hori" title="形状">
         <cc-horizontal-radio  value="77">
-            <i class="iconfont icon-triangle"></i>
+            <i class="iconfont_calico icon-triangle"></i>
         </cc-horizontal-radio>
         <cc-horizontal-radio  :value="1">
-            <i class="iconfont icon-rectangle"></i>
+            <i class="iconfont_calico icon-rectangle"></i>
         </cc-horizontal-radio>
     </cc-radio-group>
     <cc-radio-group v-model="hori" column>
         <cc-vertical-radio  value="77" label="我是坏蛋">
-            <i class="iconfont icon-triangle"></i>
+            <i class="iconfont_calico icon-triangle"></i>
         </cc-vertical-radio>
         <cc-vertical-radio  :value="1">
-            <i class="iconfont icon-rectangle"></i>
+            <i class="iconfont_calico icon-rectangle"></i>
         </cc-vertical-radio>
     </cc-radio-group>
     <!-- <cc-horizontal-radio></cc-horizontal-radio> -->
@@ -148,7 +148,7 @@
                 @select="changeNow"
                 operate                
                 :active="index === nowIndex">
-                <i class="iconfont icon-delete-page"></i>
+                <i class="iconfont_calico icon-delete-page"></i>
                 <div slot="content">
                 </div>
             </cc-preview>
@@ -304,7 +304,7 @@
                 :key="index" 
                 :value="item.val" 
                 :label="item.name">
-                <i slot="right" class="iconfont icon-delete"></i>
+                <i slot="right" class="iconfont_calico icon-delete"></i>
             </cc-option>
         </cc-select> -->
         <cc-button @click="changeNumber2">5643634</cc-button>
@@ -459,7 +459,7 @@
                 @delete-item="deletePage('dd')"
                 operate                
                 :active="index === nowIndex">
-                <i class="iconfont icon-deletePage"></i>
+                <i class="iconfont_calico icon-deletePage"></i>
             </cc-preview>
         </div>
         <p @click="showmodal = !showmodal">88888</p>

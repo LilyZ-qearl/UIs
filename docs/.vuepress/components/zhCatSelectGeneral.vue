@@ -7,7 +7,7 @@
                 :key="index" 
                 :value="item.val" 
                 :label="item.name">
-                <i slot="right" class="iconfont icon-delete"></i>
+                <i slot="right" class="iconfont_calico icon-delete"></i>
             </cc-option>
         </cc-select>
     </code-container>

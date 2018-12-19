@@ -18,7 +18,7 @@
                     </div>
                     <slot name="head-right">
                         <i v-if="showClose" 
-                            class="iconfont icon_calico-close-window cat-modal--header-icon"
+                            class="iconfont_calico icon_calico-close-window cat-modal--header-icon"
                             @click="close">
                         </i>
                     </slot>

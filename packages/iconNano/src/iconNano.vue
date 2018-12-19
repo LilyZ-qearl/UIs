@@ -1,5 +1,5 @@
 <template>
-    <i class="iconfont cat-nano-body" 
+    <i class="iconfont_calico cat-nano-body" 
         :class="[icon, active ? 'cat-nano-body-active' : 'cat-nano-body-default']"
         @click="clickNano">
     </i>

@@ -7,7 +7,7 @@
             style="height: 100%"
             :class="parentVal === value ? 'cat-option--acitve' : ''">
             <cc-row align="center">
-                <i v-if="icon" class="iconfont cat-option--item" :class="[icon, `cat-option--iconfont-font-${size}`]"></i>
+                <i v-if="icon" class="iconfont_calico cat-option--item" :class="[icon, `cat-option--iconfont-font-${size}`]"></i>
                 <p class="cat-option--item" :style="{'margin-left' : icon ? '3px' : ''}">
                     {{label ? label : value}}
                 </p>

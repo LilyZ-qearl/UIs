@@ -6,12 +6,12 @@
             :class="`cat-message-${type}`"
             v-if="show">
             <cc-row>
-                <i class="iconfont " 
+                <i class="iconfont_calico " 
                     :class="`icon_calico-message-${type}`">
                 </i>
                 <p class="cat-message--p">{{message}}</p> 
             </cc-row>
-            <i class="iconfont icon_calico-close-window cat-message--close"
+            <i class="iconfont_calico icon_calico-close-window cat-message--close"
                 v-if="showClose" 
                 @click="close()">
             </i>
